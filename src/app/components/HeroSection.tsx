@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import imgHero from "../../assets/brand-shoot/shoot-home-hero-v9.png";
+import imgHero from "../../assets/brand-shoot/shoot-home-hero-v10.png";
 import { HeroSwoosh } from "./HeroSwoosh";
 
 export function HeroSection() {
@@ -15,10 +15,7 @@ export function HeroSection() {
       {/* Top gradient — makes nav links readable over the cream-collage top */}
       <div className="absolute inset-x-0 top-0 h-[160px] bg-gradient-to-b from-black/55 via-black/20 to-transparent pointer-events-none z-[15]" />
 
-      {/* Brand swoosh + sparkles around the model */}
-      <HeroSwoosh className="absolute left-1/2 top-[48%] -translate-x-1/2 -translate-y-1/2 w-[56vw] max-w-[440px] lg:max-w-[500px] h-auto mix-blend-screen opacity-90 drop-shadow-[0_2px_14px_rgba(0,0,0,0.25)]" />
-
-      {/* Soft fade at the bottom so the CTA reads on both cream and forest backgrounds */}
+{/* Soft fade at the bottom so the CTA reads on both cream and forest backgrounds */}
       <div className="absolute inset-x-0 bottom-0 h-[40%] bg-gradient-to-b from-transparent via-black/30 to-black/70" />
 
       <div className="relative z-10 text-center px-6 flex flex-col items-center">
